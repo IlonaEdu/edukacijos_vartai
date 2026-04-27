@@ -546,7 +546,7 @@ footer{
         }
 
         .grid {
-            grid-template-rows: 100px 100px 100px 100px;
+            grid-auto-rows: 100px;
            
         }
         .form_button{
@@ -560,10 +560,10 @@ footer{
             word-break: break-all;
             
         }
-    /* .foto{
+    .foto{
     height: 30vh;
 }
-         */
+        
     }
 
 
