@@ -393,10 +393,10 @@ section{
 .s6{ background-image: url(img/erdve/sodyba6.jpg); background-color: #a5d6a7; }
 .s7{ background-image: url(img/erdve/sodyba7.jpg); background-color: #80cbc4; }
 .s8{ background-image: url(img/erdve/sodyba8.jpg); background-color: #b2dfdb; }
-.s9{ background-image: url(img/erdve/sodyba9.jpeg); background-color: #b2dfdb; }
+.s9{ background-image: url(img/erdve/sodyba9.jpg); background-color: #b2dfdb; }
 .s10{ background-image: url(img/erdve/sodyba10.jpg); background-color: #b2dfdb; }
-.s11{ background-image: url(img/erdve/sodyba11.png); background-color: #b2dfdb; }
-.s12{ background-image: url(img/erdve/sodyba12.jpeg); background-color: #b2dfdb; }
+.s11{ background-image: url(img/erdve/sodyba11.jpg); background-color: #b2dfdb; }
+.s12{ background-image: url(img/erdve/sodyba12.jpg); background-color: #b2dfdb; }
 
 
 .contact_section{
@@ -511,6 +511,10 @@ footer{
 
 
 @media only screen and (max-width: 910px) {
+	header .button {
+        display: inline-block;
+       width: 250px;
+    }
 
    .text, .foto{
     width: 90%; 
