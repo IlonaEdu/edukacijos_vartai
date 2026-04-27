@@ -404,6 +404,13 @@ section{
     height: auto;
     text-align: center;
 }
+.contact_section h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px;
+    color: rgb(48, 76, 29);
+}
 
 
 .pastas_telefonas, .formos_divas{
