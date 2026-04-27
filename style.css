@@ -513,7 +513,8 @@ footer{
 @media only screen and (max-width: 910px) {
 
    .text, .foto{
-    width: 90%;   
+    width: 90%; 
+	display: block;
 }
     .edukacijos p{
     width: 90%;
