@@ -304,7 +304,7 @@ section{
     width: 100%;
     height: auto; 
     list-style-type:disc;
-     text-align: left;
+    text-align: left;
     font-style: italic;  
 }
 .wax{
@@ -477,9 +477,9 @@ textarea{
 footer{
     text-align: center;
     padding: 40px;
-   color:rgba(48, 76, 29, 0.4);
+    color:rgba(48, 76, 29, 0.4);
     font-family: 'Roboto';
- font-size: 16px;   
+    font-size: 16px;   
 }
 
 
@@ -545,7 +545,7 @@ footer{
         }
 
         .grid {
-            grid-template-rows: 100px 100px;
+            grid-template-rows: 100px 100px 100px 100px;
            
         }
         .form_button{
