@@ -245,7 +245,7 @@ section{
 }
 .grid{
     display: grid;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px;
     grid-template-columns: 48% 48%;
     column-gap: 10px;
     row-gap:10px;
@@ -335,6 +335,69 @@ section{
 .item8{
     background-image: url(img/foto1.png);  
 }
+
+.sodyba_intro{
+    background-color: #f1f8e9;
+}
+
+.sodyba_section{
+    background-color: #f9fbe7;
+}
+
+.sodyba_foto{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sodyba_sarasas{
+    box-shadow: 0px 2px 5px rgba(48, 76, 29, 0.4);
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    text-align: left;
+    font-style: normal;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.sodyba_sarasas li{
+    padding: 8px 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(48, 76, 29);
+    border-bottom: 1px solid rgba(48, 76, 29, 0.1);
+}
+
+.sodyba_sarasas li:last-child{
+    border-bottom: none;
+}
+
+/* Sodybos nuotraukų grid placeholders */
+.sodyba_item{
+    background-color: rgba(48, 76, 29, 0.15);
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s1{ background-image: url(img/erdve/sodyba1.jpg); background-color: #c5e1a5; }
+.s2{ background-image: url(img/erdve/sodyba2.jpg); background-color: #a5d6a7; }
+.s3{ background-image: url(img/erdve/sodyba3.png); background-color: #80cbc4; }
+.s4{ background-image: url(img/erdve/sodyba4.jpg); background-color: #b2dfdb; }
+
+.s5{ background-image: url(img/erdve/sodyba5.jpg); background-color: #c5e1a5; }
+.s6{ background-image: url(img/erdve/sodyba6.jpg); background-color: #a5d6a7; }
+.s7{ background-image: url(img/erdve/sodyba7.jpg); background-color: #80cbc4; }
+.s8{ background-image: url(img/erdve/sodyba8.jpg); background-color: #b2dfdb; }
+.s9{ background-image: url(img/erdve/sodyba9.jpeg); background-color: #b2dfdb; }
+.s10{ background-image: url(img/erdve/sodyba10.jpg); background-color: #b2dfdb; }
+.s11{ background-image: url(img/erdve/sodyba11.png); background-color: #b2dfdb; }
+.s12{ background-image: url(img/erdve/sodyba12.jpeg); background-color: #b2dfdb; }
+
 
 .contact_section{
     width: 100%;
