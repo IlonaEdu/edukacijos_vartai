@@ -245,7 +245,7 @@ section{
 .grid{
     display: grid;
     grid-auto-rows: 250px;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     row-gap:10px;
 }
